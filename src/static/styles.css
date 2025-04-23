@@ -88,6 +88,14 @@ section h3 {
   font-size: 14px;
   color: #555;
   line-height: 1.4;
+  font-style: italic; /* Highlight participant names */
+}
+
+// Add hover effect for activity cards
+.activity-card:hover {
+  background-color: #e3f2fd;
+  border-color: #90caf9;
+  transition: background-color 0.3s, border-color 0.3s;
 }
 
 .form-group {
